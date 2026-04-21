@@ -6,8 +6,7 @@ const config = require("./config");
 const commandHandler = require("./handlers/commandHandler");
 const eventHandler = require("./handlers/eventHandler");
 
-const bot = new Telegraf(process.env.BOT_TOKEN);
-
+const bot = new Telegraf(config.token);
 // Load handlers
 commandHandler(bot);
 eventHandler(bot);
