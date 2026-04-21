@@ -1,0 +1,10 @@
+{
+  "name": "chatx-pro-render",
+  "version": "2.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "telegraf": "^4.12.2",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.1"
+  }
+}
